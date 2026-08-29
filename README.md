@@ -28,7 +28,7 @@ Four columns were engineered on top of the original fields for this analysis: Di
 |---|---|
 | Dataset | Raw order-level data (9,994 rows, 24 columns), loaded as an Excel Table and connected to the Data Model. |
 | Analysis | Staging layer — PivotTable outputs (monthly trend, segment, category, state, and segment-by-region breakdowns) that feed the dashboard's charts and KPI cards. |
-| Dashboard | The final one-page executive summary — see below. |
+| Dashboard | The final one-page executive summary. see below. |
 
 **Data model:** Built on Power Pivot, with a dedicated Calendar date table related to the Dataset table, and DAX measures for time-intelligence calculations (e.g. Year-over-Year revenue and a prior-year comparison measure using HASONEVALUE / SELECTEDVALUE patterns).
 
@@ -50,7 +50,7 @@ Four columns were engineered on top of the original fields for this analysis: Di
 - Revenue size is misleading without profitability. California and New York are both high-revenue and high-margin, the strongest expansion signal in the data. Texas, Ohio, Pennsylvania, and Illinois generate comparable revenue but are net loss-making, driven by much heavier average discounting.
 - Segment mix doesn't vary by geography. The Consumer/Corporate/Home Office split is nearly identical in every region, so segment mix isn't a useful screen for site selection; regional and state-level profitability is.
 
-**Recommendation:** Prioritize the new subsidiary in markets with a California/New York profile — proven revenue and margin strength — rather than markets chosen on revenue size alone, and address discount governance (especially on Tables and Bookcases) before scaling the current product mix into a new location. See Expansion_Recommendation_Memo.docx in this repo for the full one-page write-up.
+**Recommendation:** Prioritize the new subsidiary in markets with a California/New York profile, proven revenue and margin strength; rather than markets chosen on revenue size alone, and address discount governance (especially on Tables and Bookcases) before scaling the current product mix into a new location. See Expansion_Recommendation_Memo.docx in this repo for the full one-page write-up.
 
 ## Skills Demonstrated
 
