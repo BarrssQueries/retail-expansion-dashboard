@@ -59,8 +59,7 @@ Excel Data Model / Power Pivot · DAX measures & time intelligence (YoY, prior-y
 ## Repository Contents
 Sales_Performance_Analysis.xlsx # Full workbook: raw data, data model, analysis, dashboard
 Expansion_Recommendation.docx # One-page business recommendation
-assets/
-└── dashboard-preview.png # Screenshot of the Dashboard tab
+assets/dashboard-preview.png # Screenshot of the Dashboard tab
 README.md
 
 
@@ -70,4 +69,4 @@ Sample – Superstore dataset, originally distributed with Tableau (Tableau Soft
 
 ## Author
 
-Mubarakatu Adebayo.
+Mubarakatu Adebayo - Masters of Management, Business Data Analytics
